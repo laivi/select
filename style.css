@@ -591,11 +591,24 @@ button:focus {
 	width: 100%;
 }
 
+.mu-schedule-filter {
+	text-align: center;
+}
+
+.mu-schedule-filter li {
+	float: none;
+	display: inline-block;
+	margin: 0px 40px 0px 40px;	
+}
+
+.mu-schedule-filter li:hover {
+	/* background-color: orange; */
+}
+
 .mu-schedule-menu {
 	text-align: center;
 	border: none;
 }
-
 
 .mu-schedule-menu li {
 	float: none;

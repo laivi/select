@@ -730,7 +730,7 @@ button:focus {
 }
 
 .mu-single-event .palestra {
-	background-color: orange;
+	background-color: #F43E08;
 }
 
 .mu-single-event .palestra::before {

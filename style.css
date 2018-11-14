@@ -703,6 +703,14 @@ button:focus {
 	border-color: transparent #fff transparent transparent;
 }
 
+.mu-event-timeline ul li:nth-child(2n+1) .mu-single-event .mu-event-type {
+	float: left;
+}
+
+.mu-event-timeline ul li:nth-child(2n) .mu-single-event .mu-event-type {
+	float: right;
+}
+
 .mu-event-timeline ul li .mu-single-event h3 {
 	margin-bottom: 5px;
 	font-size: 16px;
@@ -714,6 +722,27 @@ button:focus {
 
 .mu-event-timeline ul li .mu-single-event span {
 	font-size: 12px;
+}
+
+.mu-single-event .mu-event-type {
+	color: white;
+	padding: 2px;
+}
+
+.mu-single-event .palestra {
+	background-color: orange;
+}
+
+.mu-single-event .palestra::before {
+	content: "PALESTRA";
+}
+
+.mu-single-event .minicurso {
+	background-color: #2F3155;	
+}
+
+.mu-single-event .minicurso::before {
+	content: "MINICURSO";
 }
 
 

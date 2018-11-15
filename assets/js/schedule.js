@@ -256,8 +256,8 @@ $(function() {
                         presentations:[
                             {
                                 type:presentation_type.GENERAL,
-                                title:"Bate papo literário",
-                                author:""
+                                title:"Bate papo literário. TEMA: Escritoras Negras na literatura brasileira",
+                                author:"Profª Iraneide Soares da Silva (UESPI)"
                             }
                         ]
                     },
@@ -278,6 +278,67 @@ $(function() {
                             {
                                 type:presentation_type.GENERAL,
                                 title:"Exposição dos alunos do IFPI",
+                                author:""
+                            }
+                        ]
+                    },
+                    {
+                        moment:"14:00",
+                        presentations:[
+                            {
+                                type:presentation_type.GENERAL,
+                                title:"Bate papo literário. TEMA: Carlos Drummond de Andrade",
+                                author:"Profs José Carlos Justino e Bruna Karina Nelson Mesquita"
+                            }
+                        ]
+                    },
+                    {
+                        moment:"15:35",
+                        presentations:[
+                            {
+                                type:presentation_type.GENERAL,
+                                title:"Intervalo",
+                                author:""
+                            }
+                        ]
+    
+                    },
+                    {
+                        moment:"15:50",
+                        presentations:[
+                            {
+                                type:presentation_type.GENERAL,
+                                title:"Premiação do I concurso literário (eixo: Carlos Drummond de Andrade)",
+                                author:""
+                            }
+                        ]
+                    },
+                    {
+                        moment:"18:30",
+                        presentations:[
+                            {
+                                type:presentation_type.GENERAL,
+                                title:"Coletivo de artes do Campus Paulistana",
+                                author:""
+                            }
+                        ]
+                    },
+                    {
+                        moment:"20:10",
+                        presentations:[
+                            {
+                                type:presentation_type.GENERAL,
+                                title:"Premiação do I concurso literário (eixo: Carlos Drummond de Andrade)",
+                                author:""
+                            }
+                        ]
+                    },
+                    {
+                        moment:"20:30",
+                        presentations:[
+                            {
+                                type:presentation_type.GENERAL,
+                                title:"Premiação para os vencedores do temas do III Café literário",
                                 author:""
                             }
                         ]

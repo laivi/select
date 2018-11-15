@@ -156,26 +156,27 @@
 
 							<div class="mu-title-area">
 								<h2 class="mu-title">Programação</h2>
-								<p>A I Semana de Linguagem, Educação, Tecnologia e Cultura conta com um repertório diverso de palestras e minicursos na área de Tecnologia, além do café literário e a jornada de linguagem.
-									<strong>Escolha o evento para ver a programação</strong>
+								<p>A I Semana de Linguagem, Educação, Tecnologia e Cultura conta com um repertório diverso de palestras e minicursos na área de Tecnologia, além do café literário e a jornada de linguagem.									
 								</p>
+
+								<p><strong>Escolha o evento para ver a programação</strong></p>
 								<div class="mu-schedule-filter">
 									<!-- <p><strong>Escolha o evento:</strong></p> -->
-									<ul class="nav nav-pills mu-schedule-filter">										
-										<li @click="filter('seminfo')">
+									<ul class="nav nav-pills nav-justified mu-schedule-filter">										
+										<li role="presentation" v-bind:class="['btn', isActive('seminfo') ? 'activex' : '']" @click="filter('seminfo')" >
 											<img src="assets/images/seminfo_logo.png" alt="Seminfo" style="width: 100px">
 											<p>III Semana de Informática</p>
 										</li>
-										<li @click="filter('cafe')">
+										<li role="presentation" v-bind:class="['btn', isActive('cafe') ? 'activex' : '']" @click="filter('cafe')">
 											<img src="assets/images/cafeliterario_logo.png" alt="Café" style="width: 100px">
 											<p>II Café Literário</p>
 										</li>
-										<li @click="filter('jornada')">
+										<li role="presentation"  v-bind:class="['btn', isActive('jornada') ? 'activex' : '']" @click="filter('jornada')">
 											<img src="assets/images/jornada_logo.png" alt="Seminfo" style="width: 100px">
 											<p>III Jornada de Linguagem</p>
 										</li>
 									</ul>
-								</div>								
+								</div>
 							</div>
 							
 							<div class="mu-schedule-content-area">
@@ -665,7 +666,7 @@
 	<script>
 		$(document).ready(function() {
 			$('.mu-event-timeline').first().addClass('active');
-			$('.mu-schedule-menu li').first().addClass('active');			
+			$('.mu-schedule-menu li').first().addClass('active');
 		});
 	</script>
 

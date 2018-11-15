@@ -596,13 +596,22 @@ button:focus {
 }
 
 .mu-schedule-filter li {
-	float: none;
-	display: inline-block;
-	margin: 0px 40px 0px 40px;	
+	/* border:1px solid white;	 */
+	/* margin:10px; */
 }
 
-.mu-schedule-filter li:hover {
-	/* background-color: orange; */
+.mu-schedule-filter li.activex {
+	border:1px solid #f96c41;
+}
+
+.mu-schedule-filter li.activex::after {
+	content: ' ';
+    width: 30px;
+    height: 10px;
+    position: absolute;
+	margin-top: 0.3em;
+	margin-left: -1em;
+    background: #f96c41;
 }
 
 .mu-schedule-menu {

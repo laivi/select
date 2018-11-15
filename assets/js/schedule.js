@@ -311,26 +311,33 @@ $(function() {
     var app = new Vue({
         el: '#app',
         data: {
-            schedule: seminfo
+            schedule: seminfo,
+            selected: "seminfo"
         },
         methods: {
             filter: function(filter_by) {
                 switch(filter_by) {
                     case "seminfo":
                         this.schedule = seminfo;
+                        this.selected = "seminfo";
                         break;
                     
                     case "cafe":
                         this.schedule = cafe;
+                        this.selected = "cafe";
                         break;    
 
                     case "jornada":
                         this.schedule = jornada;
+                        this.selected = "jornada";
                         break;                            
                     
                     default:
                         break;
                 }
+            },
+            isActive: function(text) {
+                return text == this.selected;
             }
         }
     })

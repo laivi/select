@@ -59,7 +59,8 @@ $(function() {
                             {
                                 type:presentation_type.KEYNOTE,
                                 title:"Ferramentas de Tecnologia Digital de Informação e Comunicação para suporte à Educação on-line e aberta",
-                                author:"Prof. Francisco Kelsen"
+                                author:"Prof. Francisco Kelsen",
+                                img:"kelsen.jpeg"
                             }
                         ]
                     },
@@ -85,17 +86,20 @@ $(function() {
                             {
                                 type:presentation_type.WORKSHOP,
                                 title:"Planilhas Eletrônicas",
-                                author:"Prof. Geugres de Carvalho"
+                                author:"Prof. Geugres de Carvalho",
+                                img:"geugres.jpeg"
                             },
                             {
                                 type:presentation_type.WORKSHOP,
                                 title:"Gerenciamento de salas digitais com Edmodo",
-                                author:"Prof. Fernando França"
+                                author:"Prof. Fernando França",
+                                img:"fernando.jpeg"
                             },
                             {
                                 type:presentation_type.WORKSHOP,
                                 title:"Layouts responsivos com Bootstrap",
-                                author:"Prof. Sandro Marques"
+                                author:"Prof. Sandro Marques",
+                                img:"sandro.jpeg"
                             }
                         ]
                     },
@@ -116,17 +120,20 @@ $(function() {
                             {
                                 type:presentation_type.WORKSHOP,
                                 title:"Planilhas Eletrônicas",
-                                author:"Prof. Geugres de Carvalho"
+                                author:"Prof. Geugres de Carvalho",
+                                img:"geugres.jpeg"
                             },
                             {
                                 type:presentation_type.WORKSHOP,
                                 title:"Gerenciamento de salas digitais com Edmodo",
-                                author:"Prof. Fernando França"
+                                author:"Prof. Fernando França",
+                                img:"fernando.jpeg"
                             },
                             {
                                 type:presentation_type.WORKSHOP,
                                 title:"Layouts responsivos com Bootstrap",
-                                author:"Prof. Sandro Marques"
+                                author:"Prof. Sandro Marques",
+                                img:"sandro.jpeg"
                             }
                         ]
                     },
@@ -162,12 +169,14 @@ $(function() {
                             {
                                 type:presentation_type.WORKSHOP,
                                 title:"Introdução a Arduino",
-                                author:"Prof. Paulo de Oliveira"
+                                author:"Prof. Paulo de Oliveira",
+                                img:"paulo.jpeg"
                             },
                             {
                                 type:presentation_type.WORKSHOP,
                                 title:"Resolvendo problemas reais com Aprendizagem de Máquina",
-                                author:"Prof. Ewerton Costa"
+                                author:"Prof. Ewerton Costa",
+                                img:"ewerton.jpeg"
                             }
                         ]
                     },
@@ -188,12 +197,14 @@ $(function() {
                             {
                                 type:presentation_type.WORKSHOP,
                                 title:"Introdução a Arduino",
-                                author:"Prof. Paulo de Oliveira"
+                                author:"Prof. Paulo de Oliveira",
+                                img:"paulo.jpeg"
                             },
                             {
                                 type:presentation_type.WORKSHOP,
                                 title:"Resolvendo problemas reais com Aprendizagem de Máquina",
-                                author:"Prof. Ewerton Costa"
+                                author:"Prof. Ewerton Costa",
+                                img:"ewerton.jpeg"
                             }
                         ]
                     },
@@ -373,7 +384,8 @@ $(function() {
         el: '#app',
         data: {
             schedule: seminfo,
-            selected: "seminfo"
+            selected: "seminfo",
+            selected_img: ""
         },
         methods: {
             filter: function(filter_by) {
@@ -399,6 +411,10 @@ $(function() {
             },
             isActive: function(text) {
                 return text == this.selected;
+            },
+            show_image: function(img) {
+                this.selected_img = img;
+                $("#myModal").modal('show');
             }
         }
     })

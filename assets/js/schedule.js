@@ -60,7 +60,9 @@ $(function() {
                                 type:presentation_type.KEYNOTE,
                                 title:"Ferramentas de Tecnologia Digital de Informação e Comunicação para suporte à Educação on-line e aberta",
                                 author:"Prof. Francisco Kelsen",
-                                img:"kelsen.jpeg"
+                                img:"kelsen.png",
+                                description:"A palestra buscará apresentar os aspectos e as ferramentas de Tecnologia Digital de Informação e Comunicação (TDIC) envolvidas para auxiliar aos docentes e aos discentes nos processos de Ensino e de Aprendizagem. Para isso, a palestra focará no uso de cursos abertos on-line e massivos (MOOC’s ).",
+                                curriculum:"Doutor em Ciência da Computação (2017) pela Universidade Federal de Pernambuco (UFPE). Mestre em Computação Aplicada (2010), Especialista em Gestão de Projetos (2012) e graduação em Licenciatura em Matemática (2007) pela Universidade Estadual do Ceará (UECE). Especialista em Tutoria em Educação a Distância (2014) pela UCAM, Bacharel em Sistemas de Informação (2014) pela Universidade Estácio de Sá (UNESA) e Técnico em Informática (2012) pelo Instituto Federal de Educação, Ciência e Tecnologia do Ceará (IFCE). Atualmente é professor de Ensino Básico, Técnico e Tecnológico dos cursos de Ensino Médio Integrado (EMI) e subsequente em Técnico de Informática e curso de graduação de Tecnologia em Sistemas para Internet do Instituto Federal de Educação, Ciência e Tecnologia do Sertão Pernambucano (IF Sertão-PE). Atua também como editor chefe do periódico científico Semiárido De Visu e como coordenador do Mestrado Profissional em Educação Profissional e Tecnológica (ProfEPT) no IF Sertão-PE. Tem experiência na área de Ciência da Computação, com ênfase em Redes de Computadores, Sistemas Distribuídos, Engenharia de Software, Software Livre e Tecnologia Educacional, além de atuar nas áreas de Educação a Distância, Educação Matemática e Recursos Educacionais Abertos. É líder do Grupo de Estudos e Pesquisas em Práticas Educacionais Tecnológicas (GEPET), vice-líder do grupo de pesquisa em Ciências Cognitivas e Tecnologia Educacional (CCTE) e integrante do Grupo de Estudos Avançados em Informática (GEASI)."
                             }
                         ]
                     },
@@ -87,19 +89,25 @@ $(function() {
                                 type:presentation_type.WORKSHOP,
                                 title:"Planilhas Eletrônicas",
                                 author:"Prof. Geugres de Carvalho",
-                                img:"geugres.jpeg"
+                                img:"geugres.png",
+                                description:"Nesse curso vamos abordar desde a parte básica (entendimento da ferramenta, formatações, fórmulas básicas) até os conhecimentos avançados que te permitirão resolver qualquer problema com planilhas, aprendendo fórmulas, tabelas e gráficos. Além disso, vamos montar nossa própria planilha do zero e você será capaz de aplicar seus conhecimentos em software de planilhas em qualquer projeto que queira.",
+                                curriculum:"Técnico em Informática pelo IFPI - Campus PAULISTANA, Bacharel em Sistema de Informação pela UFPI, cursando Pós-graduação em Tecnologia da Educação no Instituto Dom Alberto e Licenciatura Plena em Educação Física pela UESPI. Atua em Paulistana-PI como professor na rede privada e estadual de educação e Operador de Sistemas na Secretaria Municipal de Educação - SEME"
                             },
                             {
                                 type:presentation_type.WORKSHOP,
                                 title:"Gerenciamento de salas digitais com Edmodo",
                                 author:"Prof. Fernando França",
-                                img:"fernando.jpeg"
+                                img:"fernando.png",
+                                description: "Com recursos intuitivos e armazenamento ilimitado, crie grupos rapidamente, atribua lições de casa, agende testes, gerencie progressos e mais. Com tudo em uma única plataforma, o Edmodo é desenvolvido para dar ao educador controle total sobre sua sala de aula digital.",
+                                curriculum: "Professor do IFPI Campus Paulistana desde 2012, é bacharel em Ciência da Computação pela UERN (Universidade do Estado do Rio Grande do Norte) e possui mestrado em Ciência da Computação pelo programa MCC UERN/UFERSA."
                             },
                             {
                                 type:presentation_type.WORKSHOP,
                                 title:"Layouts responsivos com Bootstrap",
                                 author:"Prof. Sandro Marques",
-                                img:"sandro.jpeg"
+                                img:"sandro.png",
+                                description: "O minicurso em Bootstrap tem como objetivo dar aos alunos a noção de como criar páginas bonitas e responsivas para qualquer site, através de uma das principais linguagens front-end, de maneira simples, inteligente e divertida, utilizando o sistema de grades e muito mais. No curso será abordado de maneira prática a criação de um Web Site para todas as plataformas, mobile, desktop e TV.",
+                                curriculum: "Mestre em Ciência da Computação pela Universidade Federal de Pernambuco - UFPE (2017). Bacharel em Ciência da Computação pela Faculdade de Ciências Aplicadas e Sociais de Petrolina - FACAPE (2014) e Técnico em Informática pelo Instituto Federal de Educação, Ciência e Tecnologia do Sertão Pernambucano - IF SERTÃO-PE - campus Petrolina (2009). Atualmente, Coordenador de Gestão e Desenvolvimento de Sistemas da Informação do IF SERTÃO-PE - Reitoria."
                             }
                         ]
                     },
@@ -121,19 +129,25 @@ $(function() {
                                 type:presentation_type.WORKSHOP,
                                 title:"Planilhas Eletrônicas",
                                 author:"Prof. Geugres de Carvalho",
-                                img:"geugres.jpeg"
+                                img:"geugres.png",
+                                description:"Nesse curso vamos abordar desde a parte básica (entendimento da ferramenta, formatações, fórmulas básicas) até os conhecimentos avançados que te permitirão resolver qualquer problema com planilhas, aprendendo fórmulas, tabelas e gráficos. Além disso, vamos montar nossa própria planilha do zero e você será capaz de aplicar seus conhecimentos em software de planilhas em qualquer projeto que queira.",
+                                curriculum:"Técnico em Informática pelo IFPI - Campus PAULISTANA, Bacharel em Sistema de Informação pela UFPI, cursando Pós-graduação em Tecnologia da Educação no Instituto Dom Alberto e Licenciatura Plena em Educação Física pela UESPI. Atua em Paulistana-PI como professor na rede privada e estadual de educação e Operador de Sistemas na Secretaria Municipal de Educação - SEME"
                             },
                             {
                                 type:presentation_type.WORKSHOP,
                                 title:"Gerenciamento de salas digitais com Edmodo",
                                 author:"Prof. Fernando França",
-                                img:"fernando.jpeg"
+                                img:"fernando.png",
+                                description: "Com recursos intuitivos e armazenamento ilimitado, crie grupos rapidamente, atribua lições de casa, agende testes, gerencie progressos e mais. Com tudo em uma única plataforma, o Edmodo é desenvolvido para dar ao educador controle total sobre sua sala de aula digital.",
+                                curriculum: "Professor do IFPI Campus Paulistana desde 2012, é bacharel em Ciência da Computação pela UERN (Universidade do Estado do Rio Grande do Norte) e possui mestrado em Ciência da Computação pelo programa MCC UERN/UFERSA."
                             },
                             {
                                 type:presentation_type.WORKSHOP,
                                 title:"Layouts responsivos com Bootstrap",
                                 author:"Prof. Sandro Marques",
-                                img:"sandro.jpeg"
+                                img:"sandro.png",
+                                description: "O minicurso em Bootstrap tem como objetivo dar aos alunos a noção de como criar páginas bonitas e responsivas para qualquer site, através de uma das principais linguagens front-end, de maneira simples, inteligente e divertida, utilizando o sistema de grades e muito mais. No curso será abordado de maneira prática a criação de um Web Site para todas as plataformas, mobile, desktop e TV.",
+                                curriculum: "Mestre em Ciência da Computação pela Universidade Federal de Pernambuco - UFPE (2017). Bacharel em Ciência da Computação pela Faculdade de Ciências Aplicadas e Sociais de Petrolina - FACAPE (2014) e Técnico em Informática pelo Instituto Federal de Educação, Ciência e Tecnologia do Sertão Pernambucano - IF SERTÃO-PE - campus Petrolina (2009). Atualmente, Coordenador de Gestão e Desenvolvimento de Sistemas da Informação do IF SERTÃO-PE - Reitoria."
                             }
                         ]
                     },
@@ -170,13 +184,17 @@ $(function() {
                                 type:presentation_type.WORKSHOP,
                                 title:"Introdução a Arduino",
                                 author:"Prof. Paulo de Oliveira",
-                                img:"paulo.jpeg"
+                                img:"paulo.png",
+                                description:"Conceito; Em que pode ser usado; Projetos de sucesso com Arduino; Conceitos fundamentais de Arduino; Conhecendo as partes do Arduino (hardware e software); Conhecendo as funções específicas do Arduíno; Relação com a Eletrônica; Desenvolvendo projeto com Arduíno",
+                                curriculum:"Mestrando em Ciências da educação, especialista em docência do ensino superior, graduado em física e sistemas de informação."
                             },
                             {
                                 type:presentation_type.WORKSHOP,
                                 title:"Resolvendo problemas reais com Aprendizagem de Máquina",
                                 author:"Prof. Ewerton Costa",
-                                img:"ewerton.jpeg"
+                                img:"ewerton.png",
+                                description:"Aprenda os principais conceitos sobre Aprendizado de Máquina e tenha uma experiência prática aplicando técnicas de aprendizagem de máquina em um problema real.",
+                                curriculum:"Professor no IFPI - Campus PAULISTANA e programador nas madrugadas."
                             }
                         ]
                     },
@@ -198,13 +216,17 @@ $(function() {
                                 type:presentation_type.WORKSHOP,
                                 title:"Introdução a Arduino",
                                 author:"Prof. Paulo de Oliveira",
-                                img:"paulo.jpeg"
+                                img:"paulo.png",
+                                description:"Conceito; Em que pode ser usado; Projetos de sucesso com Arduino; Conceitos fundamentais de Arduino; Conhecendo as partes do Arduino (hardware e software); Conhecendo as funções específicas do Arduíno; Relação com a Eletrônica; Desenvolvendo projeto com Arduíno",
+                                curriculum:"Mestrando em Ciências da educação, especialista em docência do ensino superior, graduado em física e sistemas de informação."
                             },
                             {
                                 type:presentation_type.WORKSHOP,
                                 title:"Resolvendo problemas reais com Aprendizagem de Máquina",
                                 author:"Prof. Ewerton Costa",
-                                img:"ewerton.jpeg"
+                                img:"ewerton.png",
+                                description:"Aprenda os principais conceitos sobre Aprendizado de Máquina e tenha uma experiência prática aplicando técnicas de aprendizagem de máquina em um problema real.",
+                                curriculum:"Professor no IFPI - Campus PAULISTANA e programador nas madrugadas."
                             }
                         ]
                     },
@@ -224,7 +246,10 @@ $(function() {
                             {
                                 type:presentation_type.KEYNOTE,
                                 title:"Recursos digitais aplicáveis na educação",
-                                author:"Profº Claudete de Jesus"
+                                author:"Profº Claudete de Jesus",
+                                img:"claudete.png",
+                                description:"Recursos digitais aplicáveis na educação",
+                                curriculum:"Possui graduação em Tecnólogo em Processamento de Dados pela Universidade Estadual do Piauí, Especialização em Análise de Sistemas pela Universidade Estadual do Piauí e Especialização em Banco de Dados pelo Instituto Federal de Educação Ciência e Tecnologia do Piauí - IFPI. Mestrado profissional em andamento em Tecnologia e Gestão em Educação a Distância pela Universidade Federal Rural de Pernambuco-UFRPE. Tem experiência na área de Educação, Educação à Distância, Desenvolvimento para WEB, Análise de Sistemas e Banco de Dados. Atualmente é professora IFPI - Campus Teresina Zona Sul e Professora Pesquisadora do Programa E-TEC Brasil"
                             }
                         ]
     
@@ -234,8 +259,8 @@ $(function() {
                         presentations:[
                             {
                                 type:presentation_type.GENERAL,
-                                title:"Mesa Redonda",
-                                author:""
+                                title:"Papo tech: mesa-redonda sobre aplicação de TI na educação e seus Impactos. ",
+                                author:"Prof. Claudete de Jesus"
                             }
                         ]
     
@@ -385,7 +410,8 @@ $(function() {
         data: {
             schedule: seminfo,
             selected: "seminfo",
-            selected_img: ""
+            selected_img: "",
+            selected_presentation: ""
         },
         methods: {
             filter: function(filter_by) {
@@ -414,6 +440,10 @@ $(function() {
             },
             show_image: function(img) {
                 this.selected_img = img;
+                $("#myModal").modal('show');
+            },
+            show_details: function(presentation) {
+                this.selected_presentation = presentation;
                 $("#myModal").modal('show');
             }
         }

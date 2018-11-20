@@ -130,7 +130,7 @@
 									<div class="col-md-4">
 										<div class="mu-single-price">				
 											<h3 class="mu-price-title">III Semana de Informática</h3>
-											<p>Palestras, minicursos e mesa redonda abordando os mais diversos tópicos relaciondos a Tecnologia. Venha se divertir no SpaceGamer.</p>
+											<p>Palestras, minicursos e papo tech abordando os mais diversos tópicos relaciondos a Tecnologia. Venha se divertir no SpaceGamer.</p>
 											<a class="mu-register-btn" href="https://participant.rease.com.br/" target="_blank"> Inscreva-se</a>
 										</div>
 									</div>
@@ -219,7 +219,7 @@
 														<h3>
 															{{presentation.title}}
 															<p>
-																<button v-if="presentation.img" @click="show_image(presentation.img)"><small>+ detalhes</small></button>
+																<button v-if="presentation.img" @click="show_details(presentation)"><small>+ detalhes</small></button>
 															</p>
 														</h3>
 														<span v-if="presentation.author">{{presentation.author}}</span>
@@ -233,11 +233,31 @@
 							</div>
 
 							<!-- Modal HTML -->
-							<div id="myModal" class="modal fade">
-								<div class="modal-dialog">
+							<div id="myModal" class="modal fade bs-example-modal-lg">
+								<div class="modal-dialog modal-lg">
 									<div class="modal-content">										
 										<div class="modal-body">
-											<img :src="'assets/images/palestrantes/' + selected_img"/>
+											<div class="row">
+												<div class="col-sm-4 col-md-3">
+												  <div class="thumbnail">
+													<img :src="'assets/images/palestrantes/' + selected_presentation.img"/>
+													<div class="caption">
+													  <p>{{selected_presentation.author}}</p>
+													</div>
+												  </div>
+												</div>
+												<div class="col-sm-4 col-md-9">
+													<h5>{{selected_presentation.title}}</h5>
+													<p><strong>RESUMO</strong></p>
+													<p style="text-align: justify">{{selected_presentation.description}}</p>
+													<p><strong>CURRICULO</strong></p>
+													<p style="text-align: justify">{{selected_presentation.curriculum}}</p>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-12">
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>

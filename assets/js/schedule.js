@@ -167,7 +167,10 @@ $(function() {
                             {
                                 type:presentation_type.GENERAL,
                                 title:"SpaceGamer",
-                                author:""
+                                author:"",
+                                img:"spacegamer.jpeg",
+                                img_type:"full",
+                                url:"http://twixar.me/KNw3"
                             }
                         ]
     
@@ -444,7 +447,11 @@ $(function() {
             },
             show_details: function(presentation) {
                 this.selected_presentation = presentation;
-                $("#myModal").modal('show');
+                if (presentation.img_type && presentation.img_type == "full") {
+                    $("#fullModal").modal('show');
+                } else {
+                    $("#myModal").modal('show');
+                }    
             }
         }
     })

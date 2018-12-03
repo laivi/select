@@ -263,7 +263,7 @@ $(function() {
                             {
                                 type:presentation_type.GENERAL,
                                 title:"Papo tech: mesa-redonda sobre aplicação de TI na educação e seus Impactos. ",
-                                author:"Prof. Claudete de Jesus"
+                                author:"Prof. Claudete de Jesus, Raqueline Castro e Daniela Cavalcante"
                             }
                         ]
     
